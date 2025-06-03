@@ -1,7 +1,7 @@
 function ValidarMaxCaracter() {
         let regex = document.getElementById('inputCaracter').value
         let tamanho = regex.length;
-        if (tamanho > 10) {
+        if (tamanho > 70) {
             console.log("Só pode até 70 caracacteres")
             
         }else {
